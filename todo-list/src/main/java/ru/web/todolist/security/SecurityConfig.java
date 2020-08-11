@@ -29,6 +29,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         this.passwordEncoder=passwordEncoder;
     }
 
+    @Autowired
     public void setUserAuthService(UserDetailsService userAuthService) {
         this.userAuthService=userAuthService;
     }

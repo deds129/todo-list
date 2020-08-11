@@ -1,5 +1,6 @@
 package ru.web.todolist.security;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -17,6 +18,7 @@ public class UserAuthService  implements UserDetailsService {
 
     private  final UserRepository userRepository;
 
+    @Autowired
     public UserAuthService(UserRepository userRepository) {
         this.userRepository=userRepository;
     }
