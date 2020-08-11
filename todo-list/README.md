@@ -31,13 +31,13 @@ spring.datasource.password=${JDBC_DATABASE_PASSWORD:postgres}_
 ### Сайт:
 * Страница логина
 
-![loginImg](C:\Users\deds\IdeaProjects\todo-list\todo-list\img\1.PNG)
+![loginImg](https://github.com/deds129/todo-list/blob/master/todo-list/img/1.PNG)
 * Страница регистрации
 
-![RegisterImg](C:\Users\deds\IdeaProjects\todo-list\todo-list\img\2.PNG)
+![RegisterImg](https://github.com/deds129/todo-list/blob/master/todo-list/img/2.PNG)
 * Таблица пользователей
 
-![UserListImg](C:\Users\deds\IdeaProjects\todo-list\todo-list\img\3.PNG)
+![UserListImg](https://github.com/deds129/todo-list/blob/master/todo-list/img/3.PNG)
 
 
 
